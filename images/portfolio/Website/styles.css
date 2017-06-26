@@ -1,0 +1,135 @@
+@charset "utf-8";
+#apDiv2 {
+	position:absolute;
+	left:0px;
+	width:100%;
+	z-index:1;
+	background-color: #444;
+	color: #021E7B;
+	text-align: center;
+	top: 0px;
+	min-width: 800px;
+}
+body {
+	background-image: none;
+	background-attachment: fixed;
+	background-position: left center;
+	width: 100%;
+	background-repeat: repeat-y;
+	background-color: #F8E1AB;
+}
+p {
+	font-family: Candara, Verdana, "Lucida Bright";
+}
+
+.goeibreedte {
+	width: 100%;
+}
+
+#menu {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F66;
+	min-width: 800px;
+}
+
+
+#apDiv2 a:link , #apDiv2 a:visited{
+	font-family: Tahoma, Geneva, sans-serif;
+	text-transform: uppercase;
+	color: #EAA913;
+	background-color: #444;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	float: left;
+	width: 160px;
+	line-height: normal;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #444;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#apDiv2 a:link.lali , #apDiv2 a:visited.lali{
+	margin-right: auto;
+	width: 158px;
+	margin-left: auto;
+}
+
+#apDiv2 a:hover {
+	color: #444;
+	background-color: #EAA913;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #444;
+}
+#apDiv1 {
+	position:absolute;
+	left:0px;
+	width:250px;
+	height:300px;
+	z-index:3;
+	text-align: center;
+	font-weight: bold;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	color: #444;
+	top: 100px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-color: #444;
+	border-right-color: #444;
+	border-bottom-color: #444;
+	border-left-color: #444;
+}
+#apDiv1 h1 a:link , #apDiv1 h1 a:visited{
+	color: #3A3A3A;
+}
+#apDiv5 {
+	position:absolute;
+	left:0px;
+	width:100%;
+	height:30px;
+	background-color: #444;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	font-size: 10px;
+	margin: 0px;
+	z-index: 6;
+	top: 800px;
+}
+#apDiv1 h1 a:hover {
+	text-decoration: none;
+	font-size: 36px;
+}
+
+#apDiv5 a {
+	color: #FFF;
+	text-decoration: none;
+}
+#apDiv5 a:hover {
+	text-decoration: underline;
+}
+
+#apDiv9 h1 {
+	color: #444;
+}
+#apDiv3 a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+#apDiv3 a:hover {
+	text-decoration: underline;
+}
